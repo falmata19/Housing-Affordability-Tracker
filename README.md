@@ -50,11 +50,6 @@ const { metros } = await res.json();
 - **Comparison bar chart** — switchable between cost burden %, rent, income
 - **What constitutes "burdened"**: HUD defines 30%+ of income on housing = cost-burdened; 50%+ = severely burdened
 
-## Resume Bullets
-- Aggregated and analyzed housing affordability data across 30 US metros using Census ACS, HUD FMR, and FRED APIs
-- Computed rent-to-income ratios and classified markets by HUD affordability thresholds (cost-burdened: 30%+, severe: 50%+)
-- Built an interactive data dashboard with city filtering, trend visualization, and year-over-year rent change tracking
-
 ## Data Sources
 | Source | Dataset | URL |
 |--------|---------|-----|
