@@ -13,7 +13,7 @@ open index.html
 ```
 The frontend ships with embedded 2023 data. Works immediately.
 
-## Live Data Setup (optional but recommended for portfolio)
+## Live Data Setup
 
 ### 1. Get free API keys
 - **Census**: https://api.census.gov/data/key_signup.html (instant)
