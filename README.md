@@ -50,6 +50,10 @@ const { metros } = await res.json();
 - **Comparison bar chart** — switchable between cost burden %, rent, income
 - **What constitutes "burdened"**: HUD defines 30%+ of income on housing = cost-burdened; 50%+ = severely burdened
 
+## Disclaimer
+- "Rent figures represent Census ACS median gross rent across the full metro statistical area, which includes suburban and lower-cost areas. City core rents are typically higher."
+
+
 ## Data Sources
 | Source | Dataset | URL |
 |--------|---------|-----|
