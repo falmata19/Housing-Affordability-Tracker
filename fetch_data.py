@@ -101,7 +101,7 @@ def main():
     print(f"  Got {len(fred)} annual observations")
 
     output = {
-        "metros": metros[:50],          # top 50 by cost burden
+"metros": [m for m in metros if not any(pr in m['name'] for pr in ['Ponce','Mayagüez','San Germán','Aguadilla','Yauco','Guayama','San Juan','Bayamón','Caguas','Arecibo','Fajardo','Humacao','Coamo','Vega','Cabo Rojo','Ciales','Lares','Utuado','Adjuntas','Jayuya','Moca','Rincón','Salinas','Arroyo','Patillas','Yabucoa','Maunabo','Puerto Rico'])],
         "national_shelter_index": fred,
         "sources": {
             "census": "ACS 1-Year 2022 — B25064 (Median Gross Rent), B19013 (Median HH Income)",
